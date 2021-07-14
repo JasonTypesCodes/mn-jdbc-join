@@ -20,8 +20,6 @@ public class Item {
 	private String name;
 
 	@OneToMany(mappedBy = "itemId", fetch = FetchType.EAGER)
-	// @JoinColumn(name = "item_id", referencedColumnName = "id")
-	// -- The @JoinColumn annotation seems like the right thing to do, but it doesn't impact the result
 	private Iterable<Note> notes;
 
 	public Item() {
