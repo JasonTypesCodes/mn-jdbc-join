@@ -1,0 +1,10 @@
+version: '2'
+services:
+  item-postgresql:
+    image: postgres:13-alpine
+    environment:
+      - POSTGRES_USER=item
+      - POSTGRES_PASSWORD=
+      - POSTGRES_HOST_AUTH_METHOD=trust
+    ports:
+      - 5432:5432
