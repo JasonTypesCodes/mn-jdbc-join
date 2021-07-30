@@ -6,3 +6,5 @@
   + `./gradlew run`
 3. Retrieve items
   + `http localhost:8080/item`
+4. Retrieve users
+  + `http localhost:8080/users`
