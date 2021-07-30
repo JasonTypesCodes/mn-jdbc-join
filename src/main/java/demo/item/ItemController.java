@@ -1,4 +1,4 @@
-package demo;
+package demo.item;
 
 import io.micronaut.http.annotation.Controller;
 import io.micronaut.http.annotation.Get;

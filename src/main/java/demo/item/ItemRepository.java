@@ -1,4 +1,4 @@
-package demo;
+package demo.item;
 
 import io.micronaut.data.annotation.Join;
 import io.micronaut.data.jdbc.annotation.JdbcRepository;
